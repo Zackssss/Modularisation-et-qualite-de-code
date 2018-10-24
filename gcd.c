@@ -1,25 +1,18 @@
 Gcd(int A, int b) {
+    
+    int T;
 
-int T;
+    do {
 
-do {
+        if (A < b) {
+            T = A;
+            A = b;
+            b = T;
+        }
 
- if (A < b)
+        A = A - b;
 
-{
+    } while (A);
 
- T = A;
-
- A = b;
-
- b = T;
-
-}
-
-A = A - b;
-
-} while (A);
-
-return b;
-
+    return b;
 }
