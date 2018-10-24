@@ -1,4 +1,7 @@
 <code_scheme name="Default" version="173">
+  <Objective-C>
+    <option name="USE_MODERN_CASTS" value="false" />
+  </Objective-C>
   <Objective-C-extensions>
     <file>
       <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Import" />
