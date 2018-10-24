@@ -12,6 +12,9 @@ Git: Checkout to...
 Git: commit
 -> Permet de valider les changement du/des fichier(s) et décrit ce changement avec un message
 
+Git: discard
+-> Permet d'éffacer les changement d'un fichier (Marche uniquement avant le commit)
+
 Git: push 
 -> Envoie les changements effectuer au dépôt en ligne
 
