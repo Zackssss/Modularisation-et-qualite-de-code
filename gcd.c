@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 Gcd(int A, int b) {
     
     int T;
