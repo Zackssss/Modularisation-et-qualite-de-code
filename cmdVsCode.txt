@@ -3,6 +3,17 @@ Fichier regroupant les commandes Git implémenter dans VS code
 Git: clone
 -> Permet de copier un projet Git sur à fichier local grâce à l'URL du projet
 
+Git: pull
+-> Mise à jour de nos fichiers locaux
+
 Git: Checkout to...
 -> Permet de voir les branches du projet ou d'en créer une
 
+Git: commit
+-> Permet de valider les changement du/des fichier(s) et décrit ce changement avec un message
+
+Git: push 
+-> Envoie les changements effectuer au dépôt en ligne
+
+Git: merge
+-> Fusionne deux branches en une seul
