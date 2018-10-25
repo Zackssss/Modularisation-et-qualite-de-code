@@ -1,0 +1,7 @@
+Pour compiler sous Windows:
+
+Avec minGW:
+-Ouvrir la console windows ou Powershell dans le fichier ou se trouve le code source
+
+-Si un fichier .c -> gcc -o 'nomExe' 'fichierC'
+-Si plusieurs fichiers .c -> gcc -o 'nomExe' 'fichierC1' 'fichierC2' 'fichierC3' ...
