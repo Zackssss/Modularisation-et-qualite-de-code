@@ -1,20 +1,50 @@
+/*
+Titre: gcd.c
+Projet: https://github.com/MokkaCicc/Modularisation-et-qualite-de-code.git
+
+Rôle: Fonction de calcul de PGCD de deux nombres
+Auteur: Brian & Denis
+*/
+
+//include des bibliothèques standard
 #include <stdio.h>
+#include <stdlib.h>
 
-Gcd(int A, int b) {
+//fonction de calcul du PGCD
+int gcd(int nombre1, int nombre2) {
     
-    int T;
+    //déclaration d'une variable temporaire
+    int temporaire;
 
+    //tant que nombre1 != 0
     do {
+        //on met le plus grand nombre à la 1er place
+        if (nombre1 < nombre2) {
 
-        if (A < b) {
-            T = A;
-            A = b;
-            b = T;
+            temporaire = nombre1;
+            nombre1 = nombre2;
+            nombre2 = temporaire;
         }
 
-        A = A - b;
+        nombre1 -= nombre2;
 
-    } while (A);
+    } while (nombre1);
 
-    return b;
+    //renvoie le nombre 2
+    return nombre2;
+}
+
+
+int main(int argc, char *argv[]) {
+    //demande de deux nombres à lutilisateur
+    int saisie1, saisie2;
+    scanf("%d", &saisie1);
+    scanf("%d", &saisie2);
+
+    //affichage du résultat
+    printf("%d", gcd(saisie1, saisie2));
+
+    //juste pour éviter la fermeture de la console
+    scanf("%d", &saisie1);
+    return 0;
 }
