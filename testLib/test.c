@@ -1,7 +1,7 @@
 #include "test.h"
 
-int value;
+int nombre;
 
 void selectNumber() {
-    value = 8;
+    nombre = 8;
 }

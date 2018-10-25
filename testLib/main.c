@@ -3,6 +3,10 @@
 
 int main(int argc, char *argv[]) {
     selectNumber();
-    printf("%d", value);
+    printf("%d", nombre);
+
+    int nombre;
+    scanf("%d", &nombre);
+
     return 0;
 }

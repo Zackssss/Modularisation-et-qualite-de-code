@@ -1,2 +1,7 @@
+#ifndef DEFtest
+#define DEFtest
+
 void selectNumber();
-extern int value;
+extern int nombre;
+
+#endif
