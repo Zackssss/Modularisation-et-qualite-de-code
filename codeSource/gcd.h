@@ -7,8 +7,8 @@ Auteur: Brian & Denis
 */
 
 //sécurité pour éviter les boucles
-#ifndef DEFgcd
-#define DEFgcd
+#ifndef DEFgcd //vérifie si la fonction gcd est définie
+#define DEFgcd //définit la fonction gcd
 
 //prototype de la fonction gcd
 int gcd(int ,int);
