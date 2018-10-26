@@ -1,0 +1,15 @@
+Pour compiler sous Windows :
+
+Avec minGW :
+-Ouvrir la console windows ou Powershell dans le fichier ou se trouve le ou les code(s) source(s)
+
+-Si un fichier .c -> gcc -o 'nomExe' 'fichierC'
+-Si plusieurs fichiers .c -> gcc -o 'nomExe' 'fichierC1' 'fichierC2' 'fichierC3' ...
+
+Pour compiler sous linux :
+
+Avec le terminal ( compilateur intégrer ) :
+-Ouvrir le terminal dans le fichier ou se trouve le ou les code(s) source(s)
+
+-Si un fichier .c -> gcc -o 'nomExe' 'fichierC'
+-Si plusieurs fichiers .c -> gcc -0 'nomExe' 'fichierC1' 'fichierC2' 'fichierC3' ...
