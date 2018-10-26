@@ -17,7 +17,7 @@ cmdGit
 
 ### Comment le faire marcher?
 Mettre le fichier [gcd.c](https://github.com/MokkaCicc/Modularisation-et-qualite-de-code/blob/master/codeSource/gcd.c) et [gcd.h](https://github.com/MokkaCicc/Modularisation-et-qualite-de-code/blob/master/codeSource/gcd.h) dans son projet et l'insérer comme bibliothèque:
-```C
+```
 #include "gcd.h"
 ```
 
