@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
     scanf("%d", &saisie2);
 
     //affichage du résultat
-    printf("\nLe résultat est: %d", gcd(saisie1, saisie2));
+    printf("\nLe resultat est: %d", gcd(saisie1, saisie2));
 
     //juste pour éviter la fermeture de la console
     scanf("%d", &saisie1);
