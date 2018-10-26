@@ -1,9 +1,9 @@
 /*
-Titre: main.c
-Projet: https://github.com/MokkaCicc/Modularisation-et-qualite-de-code.git
-
-Rôle: boucle principale
-Auteur: Brian & Denis
+* Titre: main.c
+* Projet: https://github.com/MokkaCicc/Modularisation-et-qualite-de-code.git
+*
+* Rôle: boucle principale
+* Auteur: Brian & Denis
 */
 
 //include des bibliothèques
