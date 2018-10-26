@@ -22,5 +22,5 @@ Mettre le fichier [gcd.c](https://github.com/MokkaCicc/Modularisation-et-qualite
 ```
 
 ### Qui et Quand?
-Cesi.eXia Strasbourg 
+Cesi.eXia Strasbourg
 Octobre 2018
