@@ -1,9 +1,9 @@
 /*
-Titre: gcd.h
-Projet: https://github.com/MokkaCicc/Modularisation-et-qualite-de-code.git
-
-Rôle: Fichier head pour la fonction de calcul de PGCD de deux nombres
-Auteur: Brian & Denis
+* Titre: gcd.h
+* Projet: https://github.com/MokkaCicc/Modularisation-et-qualite-de-code.git
+*
+* Rôle: Fichier head pour la fonction de calcul de PGCD de deux nombres
+* Auteur: Brian & Denis
 */
 
 //sécurité pour éviter les boucles
