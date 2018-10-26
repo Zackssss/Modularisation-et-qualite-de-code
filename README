@@ -1,15 +1,12 @@
 # Modularisation-et-qualite-de-code
 Prosit 1.10 Cesi.eXia.
 
-Apprentisage de comment bien écrire un code en C:
-    - Indentations
-    - Nomination des variables
-    - Commentaires
-    - Utilisation de bilbliothèques
-    - Découpage du programme en plusieurs fichier
 
-Début de l'utilisation de Git:
-    - Comment ça marche?
-    - Installation de Git
-    - Implémentation dans VS Code
-    - Commit, branches, clone et autre fonctionnalitées
+codeSource
+-> fichier contenant le code source et le fichier CMakeLists
+
+testLib
+-> test de compilation à plusieurs fichiers et fichier résumant les commandes de compilation
+
+cmdGit
+-> fichiers regroupant les commandes de git
