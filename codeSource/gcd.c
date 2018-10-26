@@ -17,7 +17,7 @@ int gcd(int nombre1, int nombre2) {
 
     //tant que nombre1 != 0
     do {
-        //on met le plus grand nombre à la 1er place
+        //on met le plus grand nombre à la 1ère place
         if (nombre1 < nombre2) {
 
             temporaire = nombre1;
